@@ -8,7 +8,7 @@ metadata:
     name: striking-parallel-microservice
     namespace: microservices
 spec:
-    replicas: 3
+    replicas: 4
     selector:
         matchLabels:
             run: striking-parallel-microservice
